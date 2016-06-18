@@ -1,0 +1,25 @@
+<tr>
+<td class="image">
+<a href="#" {url}><img src="{img}" alt="" width="60"></a>
+</td>
+	
+<td class="name">
+<a href="#" {url}>{name}</a>
+</td>
+<td class="price">
+{sum} Руб/шт
+</td>
+<td class="amount">
+<input type="text" name="amount" id="amount{id}" value="{kol-vo}" onchange="amounts('{id}');"/>
+	</td>
+	<td class="price">
+		{all_sum} Руб/{kol-vo} шт
+	</td>
+	
+<td class="remove">
+<a href="#" {delete_url}>
+<img src="{theme}/img/delete.png" title="Удалить из корзины" alt="Удалить из корзины">
+</a>
+</td>
+			
+</tr>

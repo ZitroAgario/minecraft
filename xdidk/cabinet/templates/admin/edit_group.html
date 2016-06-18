@@ -1,0 +1,29 @@
+<form action="" method="POST">
+<div class="form_block">
+Названия <input type="text" name="name" value="{name}"/>
+</div>
+<div class="form_block">
+Описания <textarea name="text" id="area1">{text}</textarea>
+</div>
+<div class="form_block">
+<div>Цена</div> <input type="text" name="sum" value="{sum}"/>
+</div>
+<div class="form_block">
+<div>Группы в permissions</div> <input type="text" name="groupperm" value="{permgroup}"/>
+</div>
+<div class="form_block">
+<div>Разрешить бесплтано загружать скины (Сейчас: {upload_skin})</div> <select name="upload_skin"><option value="1">Да</option><option value="0">Нет</option></select>
+</div>
+<div class="form_block">
+<div>Разрешить бесплтано загружать hd скины (Сейчас: {upload_hd_skin})</div> <select name="upload_hd_skin"><option value="1">Да</option><option value="0">Нет</option></select>
+</div>
+<div class="form_block">
+<div>Разрешить бесплатно загружать плащи (Сейчас: {upload_cloak})</div> <select name="upload_cloak"><option value="1">Да</option><option value="0">Нет</option></select>
+</div>
+<div class="form_block">
+<div>Сервер</div> <select name="server">{servers}</select>
+</div>
+<div class="form_block">
+<input class="draft" type="submit" value="Изменить" name="submit"/>
+</div>
+</form>

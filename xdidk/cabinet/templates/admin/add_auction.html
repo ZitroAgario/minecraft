@@ -1,0 +1,32 @@
+<form action="" method="POST" enctype="multipart/form-data">
+	<div class="form_block">
+	<div>Названия</div> <input type="text" name="name"/>
+	</div>
+	<div class="form_block">
+	<div>Id товара</div> <input type="text" name="item_id"/>
+	</div>
+	<div class="form_block">
+	<div>Описания</div> <textarea name="text" id="area1"></textarea>
+	</div>
+	<div class="form_block">
+	<div>Изображения (Только png)</div> <input type="file" name="img"/>
+	</div>
+	<div class="form_block">
+	<div>Количество</div> <input type="text" name="kol-vo"/>
+	</div>
+	<div class="form_block">
+	<div>Стартовая цена</div> <input type="text" name="start_sum"/>
+	</div>
+	<div class="form_block">
+	<div>Шаг аукциона</div> <input type="text" name="step"/>
+	</div>
+	<div class="form_block">
+	<div>Время аукциона (В минутах, 1440 минут - 24 часа)</div> <input type="text" name="date"/>
+	</div>
+	<div class="form_block">
+	<div>Сервер</div> <select name="server">{servers}</select>
+	</div>
+	<div class="form_block">
+	<input class="draft" type="submit" value="Добавить" name="submit"/>
+	</div>
+	</form>

@@ -1,0 +1,16 @@
+[cart_true]
+<h1 style="font-size: 30px;margin-bottom: 10px;text-shadow: 0px 1px 0px #fff;">В корзине {googs_count} товаров</h1><br/>
+<form name="cart" action="" method="POST" onsubmit="return confirm('Вы потверждайте покупку {googs_count} товаров на сумму {sum} рублей')" class="formcart">
+<table id="purchases">
+{googs}
+</table>
+<br/>
+<div class="price_all">Итого: {sum} Руб</div>
+<input type="submit" name="buy" value="Купить" class="buy_submit"/>
+</form>
+[/cart_true]
+[cart_false]
+В корзине нет товаров
+[/cart_false]
+
+{ajax}

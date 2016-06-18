@@ -1,0 +1,18 @@
+
+<div class="title_lk">{title}</div>
+
+<div id="skin_lk" style="float:left;width:280px;"></div>
+
+<div id="user_info_lk">
+	<h1>Информация об аккаунте</h1>
+	<div>Игрок: {username}</div>
+	<div>Группа: {group}</div>
+	<div>Реальные деньги: {balance} руб</div>
+	<div>Игровая валюта: {game} монет</div>
+	<div id="servers_lk"><a href="#" {add_link}>  Пополнить баланс через Интеркасса </a></div>
+</div>
+<div class="clear"></div>
+{ajax}
+<script type="text/javascript">
+	new Skin("skin_lk", "{avatar}", "{cloak}");
+</script>

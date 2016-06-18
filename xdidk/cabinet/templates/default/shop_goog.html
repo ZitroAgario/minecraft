@@ -1,0 +1,26 @@
+<div id="shop_main_lk">
+<div class="title_lk">{title}</div>
+
+<div style="float:left;width:200px;margin-bottom:5px;">
+<div style="font-size:18px;margin-bottom:5px;">{name}</div>
+<img src="{img}" width="80"/>
+</div>
+<div style="float:left;">
+{text}
+</div>
+<div style="clear:both;"></div>
+Цена: {sum} руб шт/{sum2} руб 64 шт
+<br/>
+<form id="goog-form" class="variants">
+<input type="hidden" name="id" value="{id}"/>
+<input type="submit" name="submit_buy" class="button_link" value="В корзину" style="cursor:pointer;"/>
+</form>
+</div>
+<div id="shop_right_lk">
+<div class="CartLk" id="cart_informer">
+{cart}
+</div>
+</div>
+<div style="clear:both;"></div>
+
+{ajax}
